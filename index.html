@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!--
+  EKTA SINGH – Professional Developer Portfolio
+  Theme: Midnight Blue
+  Home Page: index.html
+  KLE Institute of Technology, Hubli
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ekta Singh – Computer Science Engineering Student & Aspiring Software Developer. Developer portfolio, academic projects, technical skills, and internship profile." />
+  <title>Ekta Singh – Professional Developer Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+
+  <!-- External Stylesheet (Midnight Blue Theme) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       SITE NAVIGATION (MIDNIGHT NAVY BAR)
+       ═════════════════════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main Navigation">
+    <div class="site-nav__inner">
+
+      <!-- Brand Identity -->
+      <a href="index.html" class="site-nav__brand" aria-label="Ekta Singh Portfolio">
+        <span class="site-nav__brand-name">Ekta Singh</span>
+        <span class="site-nav__brand-sub">Developer Portfolio</span>
+      </a>
+
+      <!-- Mobile Navigation Toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <ul class="site-nav__links" id="nav-links" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="biodata.html">Bio-data</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════
+       MAIN CONTENT
+       ═════════════════════════════════════════════════════ -->
+  <main>
+
+    <!-- ── 1. HERO SECTION ─────────────────────────────── -->
+    <section class="hero" aria-label="Introduction">
+
+      <!-- Left Column: Professional Presentation -->
+      <div class="hero__text">
+        <span class="hero__intro-label">Computer Science Student &amp; Developer</span>
+
+        <!-- Display Name -->
+        <h1 class="hero__name">
+          Ekta<br /><em>Singh</em>
+        </h1>
+
+        <!-- Headline & Subtitle -->
+        <p class="hero__tagline">"Turning curiosity into code, and ideas into solutions."</p>
+        <p class="hero__subtitle">Computer Science Engineering Student</p>
+
+        <!-- Professional Introduction -->
+        <p class="hero__para">
+          I'm Ekta Singh, a Computer Science Engineering student interested in software development, problem-solving and building practical technology projects. I enjoy taking ideas from concepts to working implementations, learning new tools and continuously improving the way I approach technical challenges.
+        </p>
+
+        <!-- Hero Actions -->
+        <div class="hero__buttons">
+          <a href="#projects" class="btn btn--filled">Explore My Work</a>
+          <a href="#contact" class="btn btn--outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <!-- Right Column: Asymmetrical Editorial Photo Area -->
+      <div class="hero__photo-area" aria-label="Portrait photo presentation">
+        <div class="hero__photo-wrapper">
+
+          <!-- Decorative Geometric Corner Accents -->
+          <div class="hero__photo-corner" aria-hidden="true"></div>
+          <div class="hero__photo-corner hero__photo-corner--br" aria-hidden="true"></div>
+
+          <!-- Portrait Frame (Single Large Home Photograph) -->
+          <div class="hero__photo-frame">
+            <img src="images/profile.jpg"
+                 alt="Ekta Singh – Portrait Photograph"
+                 class="hero__photo-img"
+                 onerror="this.onerror=null; this.src='images/placeholder.svg';" />
+          </div>
+
+          <!-- Professional Status Badge -->
+          <div class="hero__photo-badge">
+            KLE Tech '28 &nbsp;·&nbsp; CSE
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /.hero -->
+
+
+    <!-- ── 2. ABOUT ME SECTION (EDITORIAL RESTRUCTURED LAYOUT) ─── -->
+    <section class="about-section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+
+        <div class="about-editorial-wrap">
+
+          <!-- Left Column: Academic & Technical Perspective -->
+          <div class="about-main-col">
+            <p class="label about-eyebrow">Academic &amp; Personal Background</p>
+            <h2 class="about-title" id="about-heading">
+              Engineering with curiosity, crafting with care.
+            </h2>
+            <div class="about-divider" aria-hidden="true"></div>
+
+            <p class="about-narrative-p">
+              My journey at KLE Institute of Technology has given me the foundation to explore programming, design database solutions, and understand the core mechanics of software systems. Rather than viewing engineering solely through code, I approach development as a craft of thoughtful problem-solving—taking simple concepts and transforming them into robust, reliable solutions.
+            </p>
+            <p class="about-narrative-p">
+              Whether architecting modular systems in C++, structuring efficient relational schemas in SQL, or building clean responsive web interfaces, I enjoy the iterative cycle of debugging, refining, and continuous learning.
+            </p>
+
+            <!-- Quick Academic & Goal Snapshot Cards -->
+            <div class="about-stats-grid">
+              <div class="about-stat-item">
+                <span class="about-stat-num">2024–28</span>
+                <span class="about-stat-label">B.E. Computer Science</span>
+                <span class="about-stat-detail">KLE Tech, Hubli</span>
+              </div>
+              <div class="about-stat-item">
+                <span class="about-stat-num">C++ · SQL</span>
+                <span class="about-stat-label">Core Technical Focus</span>
+                <span class="about-stat-detail">OOP &amp; Relational DBs</span>
+              </div>
+              <div class="about-stat-item">
+                <span class="about-stat-num">Active</span>
+                <span class="about-stat-label">Internship Target</span>
+                <span class="about-stat-detail">Software Development</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Creative Balance & Beyond The Screen -->
+          <div class="about-side-col">
+            <div class="beyond-screen-card">
+              <div class="beyond-screen-card__header">
+                <span class="label label--ice">Creative Balance</span>
+                <h3 class="beyond-screen-card__title">Beyond the Screen</h3>
+                <p class="beyond-screen-card__subtitle">
+                  When stepping away from code, creative pursuits keep my perspective fresh, patient, and detail-oriented:
+                </p>
+              </div>
+
+              <div class="beyond-screen-list">
+                <!-- Painting -->
+                <div class="beyond-item">
+                  <div class="beyond-item__icon-wrap" aria-hidden="true">
+                    <svg class="beyond-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                    </svg>
+                  </div>
+                  <div class="beyond-item__text">
+                    <strong>Painting</strong>
+                    <span>Expressing visual ideas and color harmony</span>
+                  </div>
+                </div>
+
+                <!-- Clay Art -->
+                <div class="beyond-item">
+                  <div class="beyond-item__icon-wrap" aria-hidden="true">
+                    <svg class="beyond-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 3a9 9 0 0 0-9 9c0 4.97 4.03 9 9 9s9-4.03 9-9a9 9 0 0 0-9-9z"/>
+                      <path d="M12 7v5l3 3"/>
+                    </svg>
+                  </div>
+                  <div class="beyond-item__text">
+                    <strong>Clay Art</strong>
+                    <span>Tactile handcrafting, forms &amp; patience</span>
+                  </div>
+                </div>
+
+                <!-- Travelling -->
+                <div class="beyond-item">
+                  <div class="beyond-item__icon-wrap" aria-hidden="true">
+                    <svg class="beyond-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                  </div>
+                  <div class="beyond-item__text">
+                    <strong>Travelling</strong>
+                    <span>Exploring new regions &amp; perspectives</span>
+                  </div>
+                </div>
+
+                <!-- Watching Movies -->
+                <div class="beyond-item">
+                  <div class="beyond-item__icon-wrap" aria-hidden="true">
+                    <svg class="beyond-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/>
+                      <line x1="7" y1="2" x2="7" y2="22"/>
+                      <line x1="17" y1="2" x2="17" y2="22"/>
+                      <line x1="2" y1="12" x2="22" y2="12"/>
+                    </svg>
+                  </div>
+                  <div class="beyond-item__text">
+                    <strong>Watching Movies</strong>
+                    <span>Studying narrative arcs &amp; cinematic craft</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Personal Philosophy Quote Callout -->
+              <div class="beyond-quote-callout">
+                <span class="beyond-quote-mark" aria-hidden="true">&ldquo;</span>
+                <p>Curious by nature, creative by heart, always learning.</p>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.about-editorial-wrap -->
+
+      </div><!-- /.container -->
+    </section><!-- /.about-section -->
+
+
+    <!-- ── 3. FEATURED PROJECTS SECTION (DARK BLUE SHOWCASE) ── -->
+    <section class="portfolio-projects-section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-header__num" aria-hidden="true">02</span>
+          <div class="section-header__text">
+            <p class="section-header__label">Academic &amp; Practical Engineering</p>
+            <h2 class="section-header__title" id="projects-heading">Featured Projects</h2>
+          </div>
+        </div>
+
+        <p class="section-intro-text">
+          These projects showcase coursework implementations where I applied programming principles, relational schema design, and engineering logic to build practical working systems.
+        </p>
+
+        <!-- Project Cards Grid -->
+        <div class="portfolio-projects-grid">
+
+          <!-- Project 01: C++ Car Rental System -->
+          <article class="portfolio-card">
+            <div class="portfolio-card__preview" aria-hidden="true">
+              <span class="portfolio-card__icon">🚗</span>
+              <span class="portfolio-card__preview-label">Console Application · OOP</span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__category">C++ | Academic Project</span>
+              <h3 class="portfolio-card__title">C++ Car Rental System</h3>
+              <p class="portfolio-card__desc">
+                A car rental mini-project developed using C++, exploring object-oriented programming and the basic structure of a car rental system.
+              </p>
+              <div class="portfolio-card__tech">
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">OOP Concepts</span>
+                <span class="tech-tag">Modular Design</span>
+              </div>
+              <div class="portfolio-card__actions">
+                <a href="resume.html#projects" class="portfolio-card__link">
+                  View Details on Resume →
+                </a>
+                <span class="portfolio-card__repo-pill">Academic Project</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: DBMS Expense Tracker -->
+          <article class="portfolio-card">
+            <div class="portfolio-card__preview" aria-hidden="true">
+              <span class="portfolio-card__icon">📊</span>
+              <span class="portfolio-card__preview-label">Database Application · SQL</span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__category">Database Management Systems | Academic Project</span>
+              <h3 class="portfolio-card__title">DBMS Expense Tracker</h3>
+              <p class="portfolio-card__desc">
+                A database-oriented project focused on managing and tracking expenses using database concepts.
+              </p>
+              <div class="portfolio-card__tech">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Relational DBMS</span>
+                <span class="tech-tag">Schema Design</span>
+              </div>
+              <div class="portfolio-card__actions">
+                <a href="resume.html#projects" class="portfolio-card__link">
+                  View Details on Resume →
+                </a>
+                <span class="portfolio-card__repo-pill">Academic Project</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: Rope Climbing Robot -->
+          <article class="portfolio-card">
+            <div class="portfolio-card__preview" aria-hidden="true">
+              <span class="portfolio-card__icon">🤖</span>
+              <span class="portfolio-card__preview-label">Engineering Project · Robotics</span>
+            </div>
+            <div class="portfolio-card__body">
+              <span class="portfolio-card__category">Engineering Project</span>
+              <h3 class="portfolio-card__title">Rope Climbing Robot</h3>
+              <p class="portfolio-card__desc">
+                An engineering project involving the concept and development of a rope-climbing robot.
+              </p>
+              <div class="portfolio-card__tech">
+                <span class="tech-tag">Robotics Concept</span>
+                <span class="tech-tag">Mechanical Principles</span>
+                <span class="tech-tag">Applied Physics</span>
+              </div>
+              <div class="portfolio-card__actions">
+                <a href="resume.html#projects" class="portfolio-card__link">
+                  View Details on Resume →
+                </a>
+                <span class="portfolio-card__repo-pill">Engineering Project</span>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.portfolio-projects-grid -->
+
+      </div><!-- /.container -->
+    </section><!-- /#projects -->
+
+
+    <!-- ── 4. TECHNICAL SKILLS SECTION (OFF-WHITE CONTRAST) ── -->
+    <section class="skills-section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-header__num" aria-hidden="true">03</span>
+          <div class="section-header__text">
+            <p class="section-header__label">Technical Competencies</p>
+            <h2 class="section-header__title section-header__title--dark" id="skills-heading">Technical Skills</h2>
+          </div>
+        </div>
+
+        <p class="section-intro-text section-intro-text--dark">
+          Categorized technical knowledge acquired through academic coursework, programming assignments, and small project implementations:
+        </p>
+
+        <!-- Categorized Skills Grid -->
+        <div class="skills-categories-grid">
+
+          <!-- Category 1: Programming Languages -->
+          <div class="skills-category-card">
+            <div class="skills-category-card__header">
+              <span class="skills-category-card__icon" aria-hidden="true">💻</span>
+              <h3 class="skills-category-card__title">Programming Languages</h3>
+            </div>
+            <div class="skills-category-card__tags">
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag skill-tag--accent">Python</span>
+              <span class="skill-tag">Java</span>
+            </div>
+            <p class="skills-category-card__note">
+              Foundational problem solving, control structures, and object-oriented paradigms.
+            </p>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skills-category-card">
+            <div class="skills-category-card__header">
+              <span class="skills-category-card__icon" aria-hidden="true">🌐</span>
+              <h3 class="skills-category-card__title">Web Development</h3>
+            </div>
+            <div class="skills-category-card__tags">
+              <span class="skill-tag skill-tag--accent">HTML</span>
+            </div>
+            <p class="skills-category-card__note">
+              Semantic page structure, responsive layouts, and standard web formatting.
+            </p>
+          </div>
+
+          <!-- Category 3: Database -->
+          <div class="skills-category-card">
+            <div class="skills-category-card__header">
+              <span class="skills-category-card__icon" aria-hidden="true">🗄️</span>
+              <h3 class="skills-category-card__title">Database</h3>
+            </div>
+            <div class="skills-category-card__tags">
+              <span class="skill-tag skill-tag--accent">SQL</span>
+            </div>
+            <p class="skills-category-card__note">
+              Relational schema modeling, table constraints, and structured querying.
+            </p>
+          </div>
+
+          <!-- Category 4: Areas of Interest -->
+          <div class="skills-category-card">
+            <div class="skills-category-card__header">
+              <span class="skills-category-card__icon" aria-hidden="true">🎯</span>
+              <h3 class="skills-category-card__title">Areas of Interest</h3>
+            </div>
+            <div class="skills-category-card__tags">
+              <span class="skill-tag">Software Development</span>
+              <span class="skill-tag">Data Structures &amp; Algorithms</span>
+              <span class="skill-tag">Artificial Intelligence</span>
+              <span class="skill-tag">Problem-solving</span>
+            </div>
+            <p class="skills-category-card__note">
+              Continuous learning focus areas for practical technical growth.
+            </p>
+          </div>
+
+        </div><!-- /.skills-categories-grid -->
+
+      </div><!-- /.container -->
+    </section><!-- /#skills -->
+
+
+    <!-- ── 5. LEARNING AND DEVELOPMENT SECTION ─────────── -->
+    <section class="learning-section" aria-labelledby="learning-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-header__num" aria-hidden="true">04</span>
+          <div class="section-header__text">
+            <p class="section-header__label">Continuous Learning</p>
+            <h2 class="section-header__title section-header__title--dark" id="learning-heading">Learning &amp; Development</h2>
+          </div>
+        </div>
+
+        <p class="section-intro-text section-intro-text--dark">
+          Areas I am actively exploring and studying alongside regular academic coursework (presented honestly as learning interests):
+        </p>
+
+        <!-- Learning Chips Grid -->
+        <div class="learning-chips-grid">
+          <div class="learning-chip">
+            <span class="learning-chip__dot" aria-hidden="true"></span>
+            <span class="learning-chip__text">Software Development</span>
+          </div>
+          <div class="learning-chip">
+            <span class="learning-chip__dot" aria-hidden="true"></span>
+            <span class="learning-chip__text">Data Structures and Algorithms</span>
+          </div>
+          <div class="learning-chip">
+            <span class="learning-chip__dot" aria-hidden="true"></span>
+            <span class="learning-chip__text">Artificial Intelligence</span>
+          </div>
+          <div class="learning-chip">
+            <span class="learning-chip__dot" aria-hidden="true"></span>
+            <span class="learning-chip__text">Web Technologies</span>
+          </div>
+          <div class="learning-chip">
+            <span class="learning-chip__dot" aria-hidden="true"></span>
+            <span class="learning-chip__text">Problem-Solving</span>
+          </div>
+        </div>
+
+      </div><!-- /.container -->
+    </section><!-- /.learning-section -->
+
+
+    <!-- ── 6. INTERNSHIP READINESS CALLOUT ─────────────── -->
+    <section class="internship-banner" aria-labelledby="internship-heading">
+      <div class="container">
+
+        <h2 class="internship-banner__title" id="internship-heading">
+          Ready to learn, build and contribute.
+        </h2>
+
+        <p class="internship-banner__para">
+          I'm looking forward to internship opportunities where I can apply my academic knowledge, gain practical experience, learn from experienced developers and contribute to meaningful technical projects.
+        </p>
+
+        <a href="#contact" class="btn btn--filled" style="font-size: 0.85rem; padding: 0.95rem 2.4rem;">
+          Let's Start a Conversation →
+        </a>
+
+      </div><!-- /.container -->
+    </section><!-- /.internship-banner -->
+
+
+    <!-- ── 7. CONTACT SECTION (REDESIGNED PROFESSIONAL EXPERIENCE) ── -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-wrap">
+
+          <!-- Section Header -->
+          <div class="contact-header">
+            <p class="label contact-header__eyebrow">Get In Touch</p>
+            <h2 class="contact-header__title" id="contact-heading">
+              Let's Start a Conversation.
+            </h2>
+            <p class="contact-header__desc">
+              I'm open to connecting about software development internships, technical projects and opportunities to learn and contribute.
+            </p>
+          </div>
+
+          <!-- Contact Grid -->
+          <div class="contact-grid">
+
+            <!-- Primary Contact & Email Card -->
+            <div class="contact-primary-card">
+              <div>
+                <h3 class="contact-primary-card__headline">Direct Communication</h3>
+                <p class="contact-primary-card__text">
+                  Email is the best way to reach me for student internship inquiries, project discussions, or technical opportunities:
+                </p>
+
+                <!-- Interactive Email Display with Copy Action -->
+                <div class="contact-email-display">
+                  <span class="contact-email-text" id="target-email">ektasingh0987@gmail.com</span>
+                  <button type="button" class="copy-email-btn" id="copy-email-trigger" aria-label="Copy email address to clipboard">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span id="copy-btn-label">Copy</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="contact-primary-card__actions">
+                <a href="mailto:ektasingh0987@gmail.com" class="btn btn--filled" style="flex: 1; text-align: center;">
+                  Send Email Message →
+                </a>
+              </div>
+            </div>
+
+            <!-- Secondary Details Column -->
+            <div class="contact-details-col">
+
+              <!-- Location Detail -->
+              <div class="contact-info-tile">
+                <svg class="contact-tile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <p class="contact-tile-label">Location</p>
+                  <p class="contact-tile-value">Hubli, Karnataka, India</p>
+                </div>
+              </div>
+
+              <!-- Education Detail -->
+              <div class="contact-info-tile">
+                <svg class="contact-tile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+                <div>
+                  <p class="contact-tile-label">Academic Institution</p>
+                  <p class="contact-tile-value">KLE Institute of Technology, Hubli</p>
+                </div>
+              </div>
+
+              <!-- Professional Network Placeholders -->
+              <div class="contact-networks-tile">
+                <p class="contact-networks-label">Professional Networks</p>
+                <div class="contact-networks-list">
+
+                  <!-- LinkedIn Placeholder -->
+                  <div class="contact-network-item">
+                    <svg class="contact-network-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <span><strong>LinkedIn</strong></span>
+                    <span class="contact-network-badge">Profile coming soon</span>
+                  </div>
+
+                  <!-- GitHub Placeholder -->
+                  <div class="contact-network-item">
+                    <svg class="contact-network-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span><strong>GitHub</strong></span>
+                    <span class="contact-network-badge">Profile coming soon</span>
+                  </div>
+
+                </div>
+              </div>
+
+            </div><!-- /.contact-details-col -->
+
+          </div><!-- /.contact-grid -->
+
+        </div><!-- /.contact-wrap -->
+
+      </div><!-- /.container -->
+    </section><!-- /#contact -->
+
+  </main><!-- /main -->
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER (MIDNIGHT NAVY)
+       ═════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <strong>Ekta Singh</strong>
+    <br />
+    <span style="display:inline-block; margin-top: 0.4rem;">
+      &copy; <span id="footer-year"></span> &nbsp;·&nbsp;
+      Professional Developer Portfolio &nbsp;·&nbsp;
+      KLE Institute of Technology, Hubli
+    </span>
+  </footer>
+
+
+  <!-- Back-to-top button -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+
+  <!-- jQuery (CDN) -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+
+  <!-- External JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--
+  EKTA SINGH – Professional Developer Portfolio
+  Theme: Midnight Blue
+  Resume Page: resume.html
+  KLE Institute of Technology, Hubli
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ekta Singh – Compact Professional Resume. Academic qualifications, technical skills, projects, and recruitment-ready ATS PDF download." />
+  <title>Resume – Ekta Singh</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+
+  <!-- External Stylesheet (Midnight Blue Theme) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       SITE NAVIGATION (MIDNIGHT NAVY BAR)
+       ═════════════════════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main Navigation">
+    <div class="site-nav__inner">
+
+      <a href="index.html" class="site-nav__brand" aria-label="Ekta Singh Portfolio">
+        <span class="site-nav__brand-name">Ekta Singh</span>
+        <span class="site-nav__brand-sub">Developer Portfolio</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="site-nav__links" id="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="biodata.html">Bio-data</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════
+       MAIN CONTENT
+       ═════════════════════════════════════════════════════ -->
+  <main>
+
+    <!-- ── RESUME DOCUMENT VIEW SECTION ────────────────── -->
+    <section class="resume-view-section" aria-label="Resume Document Preview">
+      <div class="container">
+
+        <!-- ── COMPACT HORIZONTAL ACTION TOOLBAR ────────────── -->
+        <header class="resume-toolbar" aria-label="Resume Document Heading and Actions">
+          <div class="resume-toolbar__text">
+            <h1 class="resume-toolbar__title">Curriculum Vitae</h1>
+            <p class="resume-toolbar__subtitle">My professional resume &bull; PDF &bull; 1 page</p>
+          </div>
+          <div class="resume-toolbar__actions">
+            <!-- 1. Download PDF (Primary button, Midnight Blue background) -->
+            <a href="Ekta_Singh_Resume.pdf" download="Ekta_Singh_Resume.pdf" class="resume-btn-download" aria-label="Download PDF Resume">
+              Download PDF
+            </a>
+            <!-- 2. Print (Secondary outlined button) -->
+            <button type="button" class="resume-btn-print" onclick="window.print()" aria-label="Print Resume Document">
+              Print
+            </button>
+          </div>
+        </header>
+
+        <!-- ══════════════════════════════════════════════════
+             REAL ONE-PAGE RECRUITMENT RESUME PAPER
+             ══════════════════════════════════════════════════ -->
+        <article class="resume-paper" id="resume-paper" aria-label="Ekta Singh Resume Document">
+
+          <!-- Document Header -->
+          <header class="resume-paper__header">
+            <h2 class="resume-paper__name">EKTA SINGH</h2>
+            <p class="resume-paper__title">
+              Computer Science Engineering Student &nbsp;|&nbsp; Aspiring Software Developer
+            </p>
+            <div class="resume-paper__contact">
+              <span>Hubli, Karnataka, India</span>
+              <span>•</span>
+              <a href="mailto:ektasingh0987@gmail.com">ektasingh0987@gmail.com</a>
+              <span>•</span>
+              <span>1234500000</span>
+            </div>
+          </header>
+
+          <!-- 1. PROFESSIONAL SUMMARY -->
+          <section class="resume-doc-sec" aria-labelledby="sec-summary">
+            <h3 class="resume-doc-sec__heading" id="sec-summary">Professional Summary</h3>
+            <div class="resume-doc-sec__content">
+              <p>
+                Computer Science Engineering student at KLE Institute of Technology with foundational knowledge of programming, databases and web technologies. Interested in software development and problem-solving, with academic project experience in C++ and database management systems. Seeking an internship opportunity to apply classroom knowledge, gain practical industry experience and develop technical skills.
+              </p>
+              
+              <!-- Smaller 'Where I'm Heading' Career Objective Note -->
+              <div class="resume-objective-callout">
+                <p class="resume-objective-callout__label">Where I'm Heading</p>
+                <p class="resume-objective-callout__text">
+                  "To begin my professional journey in Computer Science and Engineering, where I can apply my academic knowledge, develop my technical skills and gain practical experience. I aspire to explore emerging technologies, contribute to meaningful projects and continuously improve my problem-solving and software development abilities."
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- 2. TECHNICAL SKILLS -->
+          <section class="resume-doc-sec" aria-labelledby="sec-skills">
+            <h3 class="resume-doc-sec__heading" id="sec-skills">Technical Skills</h3>
+            <div class="resume-doc-sec__content">
+              <div class="resume-skill-row">
+                <span class="resume-skill-label">Programming Languages:</span> C, C++, Python, Java
+              </div>
+              <div class="resume-skill-row">
+                <span class="resume-skill-label">Web Technologies:</span> HTML
+              </div>
+              <div class="resume-skill-row">
+                <span class="resume-skill-label">Database:</span> SQL
+              </div>
+              <div class="resume-skill-row">
+                <span class="resume-skill-label">Areas of Interest:</span> Software Development, Data Structures and Algorithms, Artificial Intelligence.
+              </div>
+            </div>
+          </section>
+
+          <!-- 3. ACADEMIC PROJECTS -->
+          <section class="resume-doc-sec" id="projects" aria-labelledby="sec-projects">
+            <h3 class="resume-doc-sec__heading" id="sec-projects">Academic Projects</h3>
+            <div class="resume-doc-sec__content">
+
+              <!-- Car Rental System -->
+              <div class="resume-project-item">
+                <div class="resume-project-header">
+                  <span class="resume-project-title">Car Rental System – C++</span>
+                  <span class="resume-project-cat">Academic Project</span>
+                </div>
+                <ul class="resume-project-bullets">
+                  <li>Developed an academic mini-project using C++ and explored object-oriented programming concepts through a car rental system.</li>
+                </ul>
+              </div>
+
+              <!-- DBMS Expense Tracker -->
+              <div class="resume-project-item">
+                <div class="resume-project-header">
+                  <span class="resume-project-title">DBMS Expense Tracker</span>
+                  <span class="resume-project-cat">Academic Project</span>
+                </div>
+                <ul class="resume-project-bullets">
+                  <li>Developed an academic project focused on expense tracking and database management.</li>
+                </ul>
+              </div>
+
+              <!-- Rope Climbing Robot -->
+              <div class="resume-project-item">
+                <div class="resume-project-header">
+                  <span class="resume-project-title">Rope Climbing Robot</span>
+                  <span class="resume-project-cat">Engineering Project</span>
+                </div>
+                <ul class="resume-project-bullets">
+                  <li>Worked on an engineering project involving the concept and development of a rope-climbing robot.</li>
+                </ul>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- 4. EDUCATION -->
+          <section class="resume-doc-sec" aria-labelledby="sec-education">
+            <h3 class="resume-doc-sec__heading" id="sec-education">Education</h3>
+            <div class="resume-doc-sec__content">
+
+              <!-- B.E. -->
+              <div class="resume-edu-item">
+                <div class="resume-edu-header">
+                  <span class="resume-edu-degree">Bachelor of Engineering – Computer Science and Engineering</span>
+                  <span class="resume-edu-year">2024–2028 (Pursuing)</span>
+                </div>
+                <p class="resume-edu-inst">KLE Institute of Technology, Hubli</p>
+              </div>
+
+              <!-- PUC -->
+              <div class="resume-edu-item">
+                <div class="resume-edu-header">
+                  <span class="resume-edu-degree">Pre-University Course (PUC)</span>
+                  <span class="resume-edu-year">Completed in 2024 | 93%</span>
+                </div>
+                <p class="resume-edu-inst">Dr. R. B. Patil Mahesh PU College</p>
+              </div>
+
+              <!-- SSLC -->
+              <div class="resume-edu-item">
+                <div class="resume-edu-header">
+                  <span class="resume-edu-degree">Secondary School (CBSE)</span>
+                  <span class="resume-edu-year">Completed in 2022 | 87.2%</span>
+                </div>
+                <p class="resume-edu-inst">Chinmaya Vidyalaya English Primary School</p>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- 5. COURSES AND LEARNING EXPERIENCES -->
+          <section class="resume-doc-sec" aria-labelledby="sec-courses">
+            <h3 class="resume-doc-sec__heading" id="sec-courses">Courses and Learning Experiences</h3>
+            <div class="resume-doc-sec__content">
+              <ul class="resume-simple-list">
+                <li>Capacity Planning</li>
+                <li>Artificial Intelligence</li>
+                <li>Basics of Data Structures and Algorithms</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- 6. LANGUAGES -->
+          <section class="resume-doc-sec" style="margin-bottom: 0;" aria-labelledby="sec-languages">
+            <h3 class="resume-doc-sec__heading" id="sec-languages">Languages</h3>
+            <div class="resume-doc-sec__content">
+              <p>English, Hindi, Kannada.</p>
+            </div>
+          </section>
+
+        </article><!-- /#resume-paper -->
+
+      </div><!-- /.container -->
+    </section><!-- /.resume-view-section -->
+
+    <!-- ── BOTTOM NAVIGATION ───────────────────────────── -->
+    <section class="resume-closing" aria-label="Page navigation">
+      <p class="resume-closing__text">
+        Ready to learn, build and contribute.
+      </p>
+      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="biodata.html" class="btn btn--filled">View My Bio-data →</a>
+        <a href="index.html" class="btn btn--outline-dark">Back to Home</a>
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER (MIDNIGHT NAVY)
+       ═════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <strong>Ekta Singh</strong>
+    <br />
+    <span style="display:inline-block; margin-top: 0.4rem;">
+      &copy; <span id="footer-year"></span> &nbsp;·&nbsp;
+      Professional Developer Portfolio &nbsp;·&nbsp;
+      KLE Institute of Technology, Hubli
+    </span>
+  </footer>
+
+
+  <!-- Back-to-top button -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+
+  <!-- jQuery (CDN) -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+
+  <!-- External JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>

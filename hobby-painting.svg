@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="paintBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111C32" />
+      <stop offset="60%" stop-color="#1B2942" />
+      <stop offset="100%" stop-color="#263D66" />
+    </linearGradient>
+    <linearGradient id="cobaltG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C8FE6" />
+      <stop offset="100%" stop-color="#4B6DBF" />
+    </linearGradient>
+    <linearGradient id="brushWood" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#D9A375" />
+      <stop offset="100%" stop-color="#9C6B42" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="320" fill="url(#paintBg)" rx="12"/>
+  
+  <!-- Subtle Background Grid/Stars -->
+  <circle cx="80" cy="50" r="1.5" fill="#6C8FE6" opacity="0.4"/>
+  <circle cx="420" cy="90" r="1.5" fill="#B9C8E4" opacity="0.5"/>
+  <circle cx="390" cy="270" r="1.2" fill="#6C8FE6" opacity="0.3"/>
+  <circle cx="60" cy="240" r="1.8" fill="#B9C8E4" opacity="0.4"/>
+  
+  <!-- Wooden Easel Frame (Back) -->
+  <line x1="240" y1="30" x2="240" y2="290" stroke="#16233B" stroke-width="8" stroke-linecap="round"/>
+  <line x1="240" y1="30" x2="150" y2="300" stroke="#16233B" stroke-width="7" stroke-linecap="round"/>
+  <line x1="240" y1="30" x2="330" y2="300" stroke="#16233B" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Canvas Surface -->
+  <rect x="120" y="55" width="240" height="175" rx="6" fill="#F5F7FC" stroke="#B9C8E4" stroke-width="2"/>
+  
+  <!-- Canvas Artwork (Abstract Landscape Painting) -->
+  <path d="M120 180 Q170 140 220 160 T320 130 T360 150 L360 230 L120 230 Z" fill="#263D66" opacity="0.3"/>
+  <path d="M120 195 Q180 165 240 185 T360 170 L360 230 L120 230 Z" fill="#6C8FE6" opacity="0.5"/>
+  <circle cx="190" cy="105" r="24" fill="#6C8FE6" opacity="0.25"/>
+  <circle cx="190" cy="105" r="16" fill="#6C8FE6" opacity="0.7" filter="url(#softGlow)"/>
+
+  <!-- Canvas Stand Shelf -->
+  <rect x="100" y="226" width="280" height="10" rx="3" fill="#0E1626" stroke="#263D66" stroke-width="1.5"/>
+
+  <!-- Artist Palette (Foreground Left) -->
+  <g transform="translate(65, 170) rotate(-12)">
+    <path d="M30 45 C20 15 50 0 85 5 C120 10 145 35 140 70 C135 105 100 115 75 110 C55 105 50 85 35 85 C25 85 20 95 10 90 C0 85 5 65 30 45 Z" 
+          fill="#FFFDF5" stroke="#D9A375" stroke-width="3" filter="url(#softGlow)"/>
+    <circle cx="35" cy="85" r="9" fill="#1B2942"/> <!-- Thumb hole -->
+    
+    <!-- Paint Dollops -->
+    <circle cx="58" cy="28" r="7.5" fill="#6C8FE6"/>
+    <circle cx="82" cy="24" r="7.5" fill="#111C32"/>
+    <circle cx="106" cy="36" r="7" fill="#C98264"/>
+    <circle cx="122" cy="58" r="7.5" fill="#858B60"/>
+    <circle cx="118" cy="84" r="7" fill="#B9C8E4"/>
+  </g>
+
+  <!-- Fine Paintbrush (Angled Across) -->
+  <g transform="translate(230, 160) rotate(34)">
+    <rect x="0" y="0" width="8" height="150" rx="3" fill="url(#brushWood)"/>
+    <rect x="-0.5" y="-12" width="9" height="14" fill="#B9C8E4"/>
+    <path d="M-0.5 -12 Q3.5 -30 4.5 -32 Q5.5 -30 8.5 -12 Z" fill="#6C8FE6"/>
+  </g>
+
+  <!-- Editorial Badge -->
+  <rect x="330" y="20" width="130" height="26" rx="13" fill="#111C32" stroke="#6C8FE6" stroke-width="1"/>
+  <text x="395" y="37" font-family="'Inter', sans-serif" font-size="10.5" font-weight="600" fill="#B9C8E4" text-anchor="middle" letter-spacing="1.5">FINE ART · COLOUR</text>
+</svg>

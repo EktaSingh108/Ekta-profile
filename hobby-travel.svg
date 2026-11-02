@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1626" />
+      <stop offset="45%" stop-color="#1B2942" />
+      <stop offset="85%" stop-color="#2D4673" />
+      <stop offset="100%" stop-color="#4B6DBF" />
+    </linearGradient>
+    <linearGradient id="mtnGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B9C8E4" />
+      <stop offset="35%" stop-color="#263D66" />
+      <stop offset="100%" stop-color="#111C32" />
+    </linearGradient>
+    <linearGradient id="mtnGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5F7FC" />
+      <stop offset="40%" stop-color="#6C8FE6" />
+      <stop offset="100%" stop-color="#16233B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Canvas -->
+  <rect width="480" height="320" fill="url(#skyGrad)" rx="12"/>
+
+  <!-- Celestial Elements (Crescent Moon & Stars) -->
+  <circle cx="90" cy="65" r="22" fill="#FFEAA7" opacity="0.9"/>
+  <circle cx="98" cy="60" r="19" fill="#0E1626"/>
+  <circle cx="160" cy="45" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="230" cy="35" r="1.2" fill="#B9C8E4" opacity="0.6"/>
+  <circle cx="380" cy="55" r="1.8" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="430" cy="80" r="1.2" fill="#6C8FE6" opacity="0.7"/>
+
+  <!-- Distant Mountain Ridge -->
+  <polygon points="0,240 80,160 170,220 280,130 380,210 480,150 480,320 0,320" fill="#16233B" opacity="0.85"/>
+  <polygon points="280,130 310,165 260,165" fill="#B9C8E4" opacity="0.3"/>
+
+  <!-- Foreground Majestic Mountain Peaks -->
+  <polygon points="60,320 200,105 320,320" fill="url(#mtnGrad2)"/>
+  <!-- Snowcap Peak -->
+  <polygon points="200,105 175,150 195,142 205,148 225,150" fill="#FFFFFF"/>
+
+  <!-- Secondary Foreground Peak -->
+  <polygon points="240,320 360,140 480,320" fill="url(#mtnGrad1)"/>
+  <polygon points="360,140 340,175 355,170 375,175" fill="#F5F7FC"/>
+
+  <!-- Winding Travel Trail / Waypoint Path -->
+  <path d="M 0 300 Q 120 260 210 285 T 380 270 T 480 290" fill="none" stroke="#6C8FE6" stroke-width="2.5" stroke-dasharray="6,5"/>
+
+  <!-- Compass Rose Motif (Bottom Right) -->
+  <g transform="translate(410, 240)">
+    <circle cx="0" cy="0" r="28" fill="#111C32" stroke="#6C8FE6" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#B9C8E4" stroke-width="0.8" opacity="0.5"/>
+    <!-- North Pointer -->
+    <polygon points="0,-22 5,-3 -5,-3" fill="#6C8FE6"/>
+    <!-- South Pointer -->
+    <polygon points="0,22 5,3 -5,3" fill="#B9C8E4"/>
+    <!-- East Pointer -->
+    <polygon points="22,0 3,5 3,-5" fill="#B9C8E4"/>
+    <!-- West Pointer -->
+    <polygon points="-22,0 -3,5 -3,-5" fill="#B9C8E4"/>
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+    <text x="0" y="-12" font-family="'Inter', sans-serif" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">N</text>
+  </g>
+
+  <!-- Editorial Latitude / Waypoint Badge -->
+  <rect x="25" y="275" width="165" height="26" rx="6" fill="#111C32" opacity="0.9" stroke="#6C8FE6" stroke-width="0.8"/>
+  <text x="107" y="292" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#B9C8E4" text-anchor="middle" letter-spacing="1">15.3647° N, 75.1240° E · HUBLI</text>
+
+  <!-- Top Badge -->
+  <rect x="330" y="20" width="130" height="26" rx="13" fill="#111C32" stroke="#6C8FE6" stroke-width="1"/>
+  <text x="395" y="37" font-family="'Inter', sans-serif" font-size="10.5" font-weight="600" fill="#B9C8E4" text-anchor="middle" letter-spacing="1.5">WANDERLUST · PLACES</text>
+</svg>

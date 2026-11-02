@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<!--
+  EKTA SINGH – Professional Developer Portfolio & Personal Journal
+  Theme: Midnight Blue (Midnight Edition)
+  Page: Bio-data – The Personal Editorial (biodata.html)
+  KLE Institute of Technology, Hubli
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ekta Singh – Personal Bio-data. A personal editorial profile showcasing background, creative pursuits, spoken languages, and personal philosophy." />
+  <title>Bio-data – Ekta Singh | The Personal Editorial</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+
+  <!-- External Stylesheet (Midnight Blue Theme) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       SITE NAVIGATION (MIDNIGHT NAVY BAR)
+       ═════════════════════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main Navigation">
+    <div class="site-nav__inner">
+
+      <a href="index.html" class="site-nav__brand" aria-label="Ekta Singh Portfolio">
+        <span class="site-nav__brand-name">Ekta Singh</span>
+        <span class="site-nav__brand-sub">Developer Portfolio</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="site-nav__links" id="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="biodata.html" class="active">Bio-data</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════
+       MAIN CONTENT
+       ═════════════════════════════════════════════════════ -->
+  <main>
+
+    <!-- ── 1. HERO SECTION – INTRODUCING ME (PHOTO-FREE EDITORIAL) ── -->
+    <header class="editorial-hero editorial-hero--essay" aria-label="Personal Editorial Introduction">
+      <div class="editorial-hero__inner editorial-hero__inner--essay">
+
+        <!-- Editorial Identity & Personal Intro -->
+        <div class="editorial-hero__content-side">
+          <div class="editorial-eyebrow">
+            <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--cobalt-accent);"></span>
+            <span>Personal Bio-data &bull; The Personal Editorial</span>
+          </div>
+
+          <h1 class="editorial-hero__title">More Than Just a Name.</h1>
+          <p class="editorial-hero__subtitle">A little glimpse into the person behind the projects.</p>
+
+          <div class="editorial-divider" aria-hidden="true"></div>
+
+          <!-- Small Circular Profile Photograph beside Name -->
+          <div class="biodata-identity-row">
+            <div class="biodata-avatar-circle" aria-label="Ekta Singh profile portrait">
+              <img src="images/profile.jpg"
+                   alt="Ekta Singh"
+                   class="biodata-avatar-img"
+                   onerror="this.onerror=null; this.src='images/placeholder.svg';" />
+            </div>
+
+            <div class="biodata-identity-meta">
+              <h2 class="editorial-hero__name">Ekta Singh</h2>
+              <div class="editorial-hero__meta">
+                <span><strong>Course:</strong> B.E. Computer Science Engineering</span>
+                <span>&bull;</span>
+                <span><strong>College:</strong> KLE Institute of Technology, Hubli</span>
+                <span>&bull;</span>
+                <span><strong>Location:</strong> Hubli, Karnataka, India</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="editorial-hero__intro">
+            Hello! I'm Ekta Singh. I'm someone who enjoys learning new things, exploring creative ideas and discovering different ways to express myself. While technology and engineering are an important part of my journey, I also enjoy the little things that make life interesting &ndash; creating art, travelling to new places and experiencing something different.
+          </p>
+
+          <div class="editorial-pills-row" aria-label="Editorial identity tags">
+            <span class="editorial-pill">Class of 2028</span>
+            <span class="editorial-pill">Aspiring Software Developer</span>
+            <span class="editorial-pill">Creative Thinker</span>
+            <span class="editorial-pill">Tech Enthusiast</span>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+
+    <!-- ── 2. PERSONAL SNAPSHOT – NO TABLES ─────────────── -->
+    <section class="snapshot-section" aria-labelledby="snapshot-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-header__num" aria-hidden="true">01</span>
+          <div class="section-header__text">
+            <p class="section-header__label">Personal Record</p>
+            <h2 class="section-header__title section-header__title--dark" id="snapshot-heading">A Few Details About Me.</h2>
+          </div>
+        </div>
+
+        <p style="color:var(--text-muted); font-size:0.95rem; margin-top:-0.5rem; max-width:680px;">
+          Essential personal and academic details presented in a structured editorial format:
+        </p>
+
+        <!-- Asymmetrical Editorial Grid (No Tables) -->
+        <div class="snapshot-grid">
+
+          <!-- 01: Full Name -->
+          <article class="snapshot-card snapshot-card--small">
+            <div class="snapshot-card__header">
+              <span class="snapshot-label">Full Name</span>
+              <span class="snapshot-num">01</span>
+            </div>
+            <div class="snapshot-value">Ekta Singh</div>
+            <div class="snapshot-subtext">Primary Legal Identity</div>
+          </article>
+
+          <!-- 02: Date of Birth -->
+          <article class="snapshot-card snapshot-card--small">
+            <div class="snapshot-card__header">
+              <span class="snapshot-label">Date of Birth</span>
+              <span class="snapshot-num">02</span>
+            </div>
+            <div class="snapshot-value">24 May 2006</div>
+            <div class="snapshot-subtext">24/05/2006</div>
+          </article>
+
+          <!-- 03: Gender -->
+          <article class="snapshot-card snapshot-card--small">
+            <div class="snapshot-card__header">
+              <span class="snapshot-label">Gender</span>
+              <span class="snapshot-num">03</span>
+            </div>
+            <div class="snapshot-value">Female</div>
+            <div class="snapshot-subtext">Personal Profile</div>
+          </article>
+
+          <!-- 04: Nationality -->
+          <article class="snapshot-card snapshot-card--small">
+            <div class="snapshot-card__header">
+              <span class="snapshot-label">Nationality</span>
+              <span class="snapshot-num">04</span>
+            </div>
+            <div class="snapshot-value">Indian</div>
+            <div class="snapshot-subtext">Citizen of India</div>
+          </article>
+
+          <!-- 05: Location -->
+          <article class="snapshot-card snapshot-card--medium">
+            <div class="snapshot-card__header">
+              <span class="snapshot-label">Location &amp; Residence</span>
+              <span class="snapshot-num">05</span>
+            </div>
+            <div class="snapshot-value">Hubli, Karnataka, India</div>
+            <div class="snapshot-subtext">Current Academic &amp; Personal Residence</div>
+          </article>
+
+          <!-- 06: Course (Featured Card) -->
+          <article class="snapshot-card snapshot-card--featured">
+            <div class="snapshot-card__header">
+              <span class="snapshot-label">Current Course of Study</span>
+              <span class="snapshot-num">06</span>
+            </div>
+            <div class="snapshot-value">B.E. Computer Science Engineering</div>
+            <div class="snapshot-subtext">Undergraduate Degree &nbsp;&bull;&nbsp; 2024 &ndash; 2028 (Pursuing)</div>
+          </article>
+
+          <!-- 07: Institution (Featured Card) -->
+          <article class="snapshot-card snapshot-card--featured">
+            <div class="snapshot-card__header">
+              <span class="snapshot-label">Academic Institution</span>
+              <span class="snapshot-num">07</span>
+            </div>
+            <div class="snapshot-value">KLE Institute of Technology, Hubli</div>
+            <div class="snapshot-subtext">Affiliated to VTU, Belagavi &nbsp;&bull;&nbsp; Karnataka, India</div>
+          </article>
+
+        </div><!-- /.snapshot-grid -->
+
+      </div>
+    </section><!-- /.snapshot-section -->
+
+
+    <!-- ── 3. MY CREATIVE SIDE – "BEYOND THE SCREEN" ───── -->
+    <section class="creative-section" aria-labelledby="creative-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-header__num" aria-hidden="true">02</span>
+          <div class="section-header__text">
+            <p class="section-header__label">Creative Pursuits</p>
+            <h2 class="section-header__title section-header__title--dark" id="creative-heading">Beyond the Screen.</h2>
+          </div>
+        </div>
+
+        <p style="color:var(--text-muted); font-size:1.05rem; font-style:italic; margin-top:-0.5rem; max-width:720px; font-family:var(--font-accent);">
+          Some of the things I enjoy when I'm not studying or working on projects.
+        </p>
+
+        <!-- Asymmetrical Editorial Collage -->
+        <div class="creative-collage">
+
+          <!-- 1. PAINTING (Featured Span 7) -->
+          <article class="collage-item collage-item--painting" tabindex="0" aria-label="Painting creative interest">
+            <div class="collage-media">
+              <span class="collage-tag">Visual Art</span>
+              <img src="images/hobby-painting.svg" alt="Painting and fine art materials artwork" />
+            </div>
+            <div class="collage-content">
+              <div>
+                <div class="collage-title-row">
+                  <span class="collage-icon" aria-hidden="true">🎨</span>
+                  <h3 class="collage-title">Painting</h3>
+                </div>
+                <p class="collage-desc">
+                  I enjoy expressing ideas and creativity through colours and artwork.
+                </p>
+              </div>
+              <div style="margin-top:1.2rem; font-size:0.75rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--cobalt-accent); font-weight:700;">
+                Canvas &bull; Palette &bull; Imagination
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. CLAY ART (Span 5) -->
+          <article class="collage-item collage-item--clay" tabindex="0" aria-label="Clay art creative interest">
+            <div class="collage-media">
+              <span class="collage-tag">Handcrafted Form</span>
+              <img src="images/hobby-clay.svg" alt="Handcrafted clay ceramic vase and tools" />
+            </div>
+            <div class="collage-content">
+              <div>
+                <div class="collage-title-row">
+                  <span class="collage-icon" aria-hidden="true">🏺</span>
+                  <h3 class="collage-title">Clay Art</h3>
+                </div>
+                <p class="collage-desc">
+                  I like creating things with my hands and experimenting with different shapes and designs.
+                </p>
+              </div>
+              <div style="margin-top:1.2rem; font-size:0.75rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--cobalt-accent); font-weight:700;">
+                Ceramics &bull; Sculpting &bull; Tactile Design
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. TRAVELLING (Span 5) -->
+          <article class="collage-item collage-item--travel" tabindex="0" aria-label="Travelling creative interest">
+            <div class="collage-media">
+              <span class="collage-tag">Exploration</span>
+              <img src="images/hobby-travel.svg" alt="Scenic mountain landscapes and compass navigation trail" />
+            </div>
+            <div class="collage-content">
+              <div>
+                <div class="collage-title-row">
+                  <span class="collage-icon" aria-hidden="true">✈️</span>
+                  <h3 class="collage-title">Travelling</h3>
+                </div>
+                <p class="collage-desc">
+                  I enjoy discovering new places and experiencing different surroundings.
+                </p>
+              </div>
+              <div style="margin-top:1.2rem; font-size:0.75rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--cobalt-accent); font-weight:700;">
+                Horizons &bull; Culture &bull; Discovery
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. MOVIES (Featured Span 7) -->
+          <article class="collage-item collage-item--movies" tabindex="0" aria-label="Movies creative interest">
+            <div class="collage-media">
+              <span class="collage-tag">Storytelling</span>
+              <img src="images/hobby-movies.svg" alt="Cinema director clapperboard and 35mm film reel" />
+            </div>
+            <div class="collage-content">
+              <div>
+                <div class="collage-title-row">
+                  <span class="collage-icon" aria-hidden="true">🎬</span>
+                  <h3 class="collage-title">Movies</h3>
+                </div>
+                <p class="collage-desc">
+                  I enjoy watching movies and exploring different stories and perspectives.
+                </p>
+              </div>
+              <div style="margin-top:1.2rem; font-size:0.75rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--cobalt-accent); font-weight:700;">
+                Cinema &bull; Narrative &bull; Worldviews
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.creative-collage -->
+
+      </div>
+    </section><!-- /.creative-section -->
+
+
+    <!-- ── 4. LANGUAGES I SPEAK ─────────────────────────── -->
+    <section class="languages-editorial-section" aria-labelledby="languages-heading">
+      <div class="container">
+
+        <div class="section-header">
+          <span class="section-header__num" aria-hidden="true">03</span>
+          <div class="section-header__text">
+            <p class="section-header__label">Communication</p>
+            <h2 class="section-header__title section-header__title--dark" id="languages-heading">Languages I Speak.</h2>
+          </div>
+        </div>
+
+        <p style="color:var(--text-muted); font-size:0.95rem; margin-top:-0.5rem; max-width:680px;">
+          Languages I use for academic learning, technical collaboration, and daily personal communication:
+        </p>
+
+        <!-- Horizontal Editorial Language Cards -->
+        <div class="languages-editorial-grid">
+
+          <!-- English -->
+          <article class="lang-editorial-card">
+            <span class="lang-editorial-badge">Academic &amp; Professional</span>
+            <h3 class="lang-editorial-name">English</h3>
+            <div class="lang-editorial-native">English</div>
+            <p class="lang-editorial-note">
+              Primary medium of engineering instruction, coursework, code documentation, and technical communication.
+            </p>
+          </article>
+
+          <!-- Hindi -->
+          <article class="lang-editorial-card">
+            <span class="lang-editorial-badge">National &amp; Cultural</span>
+            <h3 class="lang-editorial-name">Hindi</h3>
+            <div class="lang-editorial-native">हिन्दी</div>
+            <p class="lang-editorial-note">
+              Spoken and written fluency for national connection, cultural appreciation, and interpersonal conversation.
+            </p>
+          </article>
+
+          <!-- Kannada -->
+          <article class="lang-editorial-card">
+            <span class="lang-editorial-badge">Regional &amp; State</span>
+            <h3 class="lang-editorial-name">Kannada</h3>
+            <div class="lang-editorial-native">ಕನ್ನಡ</div>
+            <p class="lang-editorial-note">
+              Regional language of Karnataka, utilized for local community interaction, regional culture, and daily life.
+            </p>
+          </article>
+
+        </div><!-- /.languages-editorial-grid -->
+
+      </div>
+    </section><!-- /.languages-editorial-section -->
+
+
+    <!-- ── 5. PERSONAL PHILOSOPHY (FULL-WIDTH STATEMENT) ── -->
+    <section class="philosophy-banner" aria-label="Personal Philosophy">
+      <div class="philosophy-banner__inner">
+        <blockquote class="philosophy-quote">
+          &ldquo;Curious by nature, creative by heart, always learning.&rdquo;
+        </blockquote>
+        <div class="philosophy-author">
+          <span>Ekta Singh</span>
+          <span>&bull;</span>
+          <span>Personal Philosophy</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ── 6. COMPACT EDITORIAL CONTACT STRIP ───────────── -->
+    <section class="biodata-contact-bar" aria-label="Contact and page navigation">
+      <div class="biodata-contact-bar__inner">
+
+        <div class="biodata-contact-meta">
+          <h2 class="biodata-contact-name">Ekta Singh</h2>
+          <div class="biodata-contact-details">
+            <span>📍 Hubli, Karnataka, India</span>
+            <span>&bull;</span>
+            <span>✉️ <a href="mailto:ektasingh0987@gmail.com">ektasingh0987@gmail.com</a></span>
+          </div>
+        </div>
+
+        <div class="biodata-contact-actions">
+          <a href="resume.html" class="btn btn--filled">View Recruitment Resume →</a>
+          <a href="index.html" class="btn btn--outline-dark">Back to Home</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER (MIDNIGHT NAVY)
+       ═════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <strong>Ekta Singh</strong>
+    <br />
+    <span style="display:inline-block; margin-top: 0.4rem;">
+      &copy; <span id="footer-year"></span> &nbsp;·&nbsp;
+      Professional Developer Portfolio &nbsp;·&nbsp;
+      KLE Institute of Technology, Hubli
+    </span>
+  </footer>
+
+
+  <!-- Back-to-top button -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+
+  <!-- jQuery (CDN) -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+
+  <!-- External JavaScript -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>

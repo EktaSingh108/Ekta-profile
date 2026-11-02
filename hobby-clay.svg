@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="clayBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141E33" />
+      <stop offset="60%" stop-color="#1C2B47" />
+      <stop offset="100%" stop-color="#24375A" />
+    </linearGradient>
+    <linearGradient id="terracottaGrad" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#E89B7B" />
+      <stop offset="50%" stop-color="#C98264" />
+      <stop offset="100%" stop-color="#9E5D42" />
+    </linearGradient>
+    <linearGradient id="ceramicGlaze" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#6C8FE6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1B2942" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="shadowPot" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#0B1220" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="320" fill="url(#clayBg)" rx="12"/>
+
+  <!-- Subtle Studio Bench Surface -->
+  <ellipse cx="240" cy="275" rx="190" ry="32" fill="#0E1626" opacity="0.8"/>
+  <ellipse cx="240" cy="265" rx="140" ry="22" fill="#1B2942" stroke="#263D66" stroke-width="2"/>
+  <ellipse cx="240" cy="258" rx="90" ry="14" fill="#263D66" stroke="#6C8FE6" stroke-width="1.5"/>
+
+  <!-- Handcrafted Sculpted Vase (Centre) -->
+  <g filter="url(#shadowPot)">
+    <!-- Vase Body -->
+    <path d="M 215 90 
+             C 200 115 170 145 170 190 
+             C 170 235 205 250 240 250 
+             C 275 250 310 235 310 190 
+             C 310 145 280 115 265 90 
+             Z" 
+          fill="url(#terracottaGrad)" stroke="#FFE8DE" stroke-width="1.5"/>
+    
+    <!-- Vase Neck & Rim -->
+    <ellipse cx="240" cy="90" rx="25" ry="7" fill="#C98264" stroke="#FFE8DE" stroke-width="1.5"/>
+    <ellipse cx="240" cy="90" rx="18" ry="4.5" fill="#753C24"/>
+
+    <!-- Handcrafted Clay Ribbons / Decorative Carved Grooves -->
+    <path d="M 175 180 Q 240 200 305 180" fill="none" stroke="#6C8FE6" stroke-width="3" opacity="0.85"/>
+    <path d="M 185 205 Q 240 220 295 205" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.6" stroke-dasharray="4,4"/>
+    <path d="M 195 155 Q 240 170 285 155" fill="none" stroke="#FFE8DE" stroke-width="2" opacity="0.7"/>
+
+    <!-- Subtle Glaze Highlight Reflection -->
+    <path d="M 180 160 C 180 140 195 120 215 105" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Smaller Ceramic Bowl (Left) -->
+  <g transform="translate(90, 200)" filter="url(#shadowPot)">
+    <path d="M10 25 Q15 60 45 60 Q75 60 80 25 Z" fill="#B9C8E4" stroke="#6C8FE6" stroke-width="1.5"/>
+    <ellipse cx="45" cy="25" rx="35" ry="9" fill="#F5F7FC" stroke="#6C8FE6" stroke-width="1.5"/>
+    <ellipse cx="45" cy="25" rx="28" ry="6" fill="#6C8FE6" opacity="0.3"/>
+  </g>
+
+  <!-- Wooden Clay Sculpting Loop Tool (Right) -->
+  <g transform="translate(330, 180) rotate(-35)">
+    <!-- Wooden Handle -->
+    <rect x="0" y="20" width="10" height="95" rx="4" fill="#D9A375" stroke="#9C6B42" stroke-width="1"/>
+    <!-- Wire Loop End -->
+    <path d="M -2 20 C -2 0 12 0 12 20 Z" fill="none" stroke="#B9C8E4" stroke-width="2.5"/>
+    <!-- Metal Ferrule -->
+    <rect x="-1" y="16" width="12" height="7" fill="#6C8FE6"/>
+  </g>
+
+  <!-- Editorial Badge -->
+  <rect x="315" y="20" width="145" height="26" rx="13" fill="#111C32" stroke="#6C8FE6" stroke-width="1"/>
+  <text x="387" y="37" font-family="'Inter', sans-serif" font-size="10.5" font-weight="600" fill="#B9C8E4" text-anchor="middle" letter-spacing="1.5">HANDCRAFTED · 3D FORM</text>
+</svg>
